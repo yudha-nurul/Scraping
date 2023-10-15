@@ -1,0 +1,18 @@
+- import moduls
+requests
+BeautifullSoup4
+csv
+- buat variabel2 yang dibutuhkan
+key
+location
+url (perhatikan url, apakah memakai parameter atau tidak, perlu edit atau tidak)
+dll
+
+- request.>>cari method nya apa, di network pada browser, misal GET brarti :
+request.get(url)
+cek dengan coba print(req), pastikan mendapat response 200 (diterima), klo ditolak disajadi karena dianggap bot.
+solusinya pakai header, contoh :
+headers = {
+    ' user'
+}
+
